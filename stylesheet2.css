@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+}
+.pink {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 148, 148);
+  height: auto;
+  width: 25%;
+  padding: 75px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+h2 {
+  font-size: 10px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+h3 {
+  margin-top: 50px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.logout-button {
+  color: white;
+  margin-top: 200px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.black {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 75%;
+  height: auto;
+}
+
+.black1 {
+  width: 50%;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.miniposter {
+  height: 220px;
+  width: 150px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+.info {
+  height: auto;
+  width: 290px;
+}
+p {
+  font-size: 10px;
+  font-weight: lighter;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.black2 {
+  width: 50%;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.friendsinfo {
+  padding: 25px;
+  margin-left: 25px;
+}
+.friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.friends {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+p1 {
+  font-size: 15px;
+  margin-left: 25px;
+}

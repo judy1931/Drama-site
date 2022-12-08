@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: auto;
+  width: 40%;
+}
+.black {
+  height: auto;
+  width: 60%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  margin: 200px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 15px;
+  font-weight: lighter;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+p {
+  font-size: 15px;
+  color: gray;
+  width: 410px;
+  height: 40px;
+  background-color: white;
+  border-radius: 4px;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+.signup {
+  background-color: rgb(255, 148, 148);
+  font-size: 15px;
+  width: 410px;
+  height: 60px;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+.signupbotton {
+  padding-top: 55px;
+}
+
+.signup:hover {
+  background-color: rgb(255, 184, 184);
+}
